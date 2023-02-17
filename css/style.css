@@ -7,13 +7,20 @@
   background-color: aquamarine;
   text-align: center;
 }
-button {
+#button {
   size: 35px;
   color: rgb(50, 45, 50);
-  background-color: goldenrod;
-  margin-left: auto;
-  margin-right: auto;
+  background-color: white;
+  margin: auto;
+  text-align: center;
+  
 
+}
+#butter {
+  size: 35 px;
+  color: black;
+  background-color: goldenrod;
+  text-align: center;
 }
 #tabletop {
 background-color: white(8, 8, 40);
@@ -29,4 +36,18 @@ text-align: center;
   text-align: center;
   margin-right: 50;
   margin-left: 50;
+  
+}
+
+#segment {
+  background-color: lightgreen;
+  margin: 20px;
+  padding: 20px;
+  border: 9px solid black;  
+}
+#segment2 {
+  background-color: rgb(54, 232, 248);
+  margin: 20px;
+  padding: 20px;
+  border: 9px solid rgb(147, 111, 50);  
 }
