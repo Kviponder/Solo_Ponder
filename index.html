@@ -3,6 +3,7 @@
 <head>
 	<title>New_Run</title>
 	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" type=js" href="style.js">
 </head>
 <body>
 	<div>
@@ -12,9 +13,26 @@
 		<p> This is an example of how we can modify text and paragraphs within one 
 			element of code</p>
 		<div id="button">
-		<button id="butter">Yes</button>
-		<button id="butter">No</button>
+		<button id="Yes-button" onclick="incrementYes()">Yes</button>
+		<button id="No-button" onclick="incrementNo()">No</button>
 		</div>
+		<div id="counter">
+			<span id="yes-count">0</span>-<span id="no-count">0</span>
+		</div>
+		<script>
+			var yesCount = 0;
+var noCount = 0;
+function incrementYes() {
+    yesCount++;
+    document.getElementById("yes-count").innerHTML= yesCount;
+			}
+
+function incrementNo() {
+     noCount++;
+         document.getElementById("no-count").innerHTML= noCount;
+            }
+
+		</script>
 	</div>
 
 	<div id="segment">

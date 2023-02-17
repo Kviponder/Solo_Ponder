@@ -36,7 +36,7 @@ text-align: center;
   text-align: center;
   margin-right: 50;
   margin-left: 50;
-  
+
 }
 
 #segment {
@@ -50,4 +50,28 @@ text-align: center;
   margin: 20px;
   padding: 20px;
   border: 9px solid rgb(147, 111, 50);  
+}
+
+#Yes-button {
+  background-color: goldenrod;
+  margin: 10px;
+  padding: auto;
+  border: 1px solid black;
+}
+#No-button {
+  background-color: goldenrod;
+  margin: 10px;
+  padding: auto;
+  border: 1px solid black;
+  width: auto;
+}
+#counter {
+  size: 35px;
+  color: rgb(50, 45, 50);
+  background-color: white;
+  text-align: center;
+  margin: 10px;
+  padding: auto;
+  border: 1px solid black;
+  width: auto;
 }
